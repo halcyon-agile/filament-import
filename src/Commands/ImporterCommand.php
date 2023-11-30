@@ -1,12 +1,14 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+declare(strict_types=1);
+
+namespace HaclyonAgile\TallBoilerplate\Importer\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class ImporterCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'tall-boilerplate-importer';
 
     public $description = 'My command';
 
