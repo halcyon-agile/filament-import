@@ -72,11 +72,8 @@
     "extra": {
         "laravel": {
             "providers": [
-                "HaclyonAgile\\Importer\\ImporterServiceProvider"
-            ],
-            "aliases": {
-                "Importer": "HaclyonAgile\\Importer\\Facades\\Importer"
-            }
+                "HaclyonAgile\\TallBoilerplate\\Importer\\ImporterServiceProvider"
+            ]
         }
     },
     "minimum-stability": "dev",
