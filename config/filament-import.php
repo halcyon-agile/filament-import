@@ -1,5 +1,13 @@
 <?php
 
 return [
-    'filament-import' => 'hahaha'
+
+    'temporary_files' => [
+
+        'disk' => null,
+
+        'base_directory' => 'filament-import',
+
+    ],
+
 ];
