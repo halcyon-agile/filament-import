@@ -5,8 +5,6 @@
 [![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/halcyon-agile/filament-import/fix-php-code-style-issues.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/halcyon-agile/filament-import/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
 [![Total Downloads](https://img.shields.io/packagist/dt/halcyon-agile/filament-import.svg?style=flat-square)](https://packagist.org/packages/halcyon-agile/filament-import)
 
-This is where your description should go. Limit it to a paragraph or two. Consider adding a small example.
-
 ## Installation
 
 You can install the package via composer:
