@@ -1,4 +1,4 @@
-# This is my package tall-boilerplate-importer
+# Filament Import
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/halcyon-agile/tall-boilerplate-importer.svg?style=flat-square)](https://packagist.org/packages/halcyon-agile/tall-boilerplate-importer)
 [![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/halcyon-agile/tall-boilerplate-importer/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/halcyon-agile/tall-boilerplate-importer/actions?query=workflow%3Arun-tests+branch%3Amain)
@@ -20,7 +20,7 @@ We highly appreciate you sending us a postcard from your hometown, mentioning wh
 You can install the package via composer:
 
 ```bash
-composer require halcyon-agile/tall-boilerplate-importer
+composer require halcyon-agile/filament-import"
 ```
 
 You can publish and run the migrations with:
@@ -53,7 +53,7 @@ php artisan vendor:publish --tag="tall-boilerplate-importer-views"
 
 ```php
 $importer = new HaclyonAgile\Importer();
-echo $importer->echoPhrase('Hello, HaclyonAgile!');
+echo $importer->echoPhrase('Hello, HalcyonAgile!');
 ```
 
 ## Testing

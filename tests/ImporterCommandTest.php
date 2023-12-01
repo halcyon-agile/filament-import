@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-use HaclyonAgile\TallBoilerplate\Importer\Commands\ImporterCommand;
+use HalcyonAgile\FilamentImport\Commands\ImporterCommand;
 
 use function Pest\Laravel\artisan;
 

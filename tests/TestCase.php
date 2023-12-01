@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace HaclyonAgile\TallBoilerplate\Importer\Tests;
+namespace HalcyonAgile\FilamentImport\Tests;
 
-use HaclyonAgile\TallBoilerplate\Importer\ImporterServiceProvider;
+use HalcyonAgile\FilamentImport\ImporterServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
 

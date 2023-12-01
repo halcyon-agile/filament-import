@@ -2,6 +2,6 @@
 
 declare(strict_types=1);
 
-use HaclyonAgile\TallBoilerplate\Importer\Tests\TestCase;
+use HalcyonAgile\FilamentImport\Tests\TestCase;
 
 uses(TestCase::class)->in(__DIR__);

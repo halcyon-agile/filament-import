@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace HaclyonAgile\TallBoilerplate\Importer;
+namespace HalcyonAgile\FilamentImport;
 
-use HaclyonAgile\TallBoilerplate\Importer\Commands\ImporterCommand;
+use HalcyonAgile\FilamentImport\Commands\ImporterCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
 

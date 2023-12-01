@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace HaclyonAgile\TallBoilerplate\Importer\Commands;
+namespace HalcyonAgile\FilamentImport\Commands;
 
 use Illuminate\Console\Command;
 

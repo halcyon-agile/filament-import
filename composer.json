@@ -1,5 +1,5 @@
 {
-    "name": "halcyon-agile/tall-boilerplate-importer",
+    "name": "halcyon-agile/filament-import",
     "description": "This is my package tall-boilerplate-importer",
     "keywords": [
         "HaclyonAgile",
@@ -36,12 +36,12 @@
     },
     "autoload": {
         "psr-4": {
-            "HaclyonAgile\\TallBoilerplate\\Importer\\": "src/"
+            "HalcyonAgile\\FilamentImport\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "HaclyonAgile\\TallBoilerplate\\Importer\\Tests\\": "tests/",
+            "HalcyonAgile\\FilamentImport\\Tests\\": "tests/",
             "Workbench\\App\\": "workbench/app/"
         }
     },
@@ -73,7 +73,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "HaclyonAgile\\TallBoilerplate\\Importer\\ImporterServiceProvider"
+                "HalcyonAgile\\FilamentImport\\ImporterServiceProvider"
             ]
         }
     },
