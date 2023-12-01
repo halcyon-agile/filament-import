@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-use HalcyonAgile\FilamentImport\Commands\ImporterCommand;
+use HalcyonAgile\FilamentImport\Commands\PruneImportCommand;
 
 use function Pest\Laravel\artisan;
 
 it('can test', function () {
-    artisan(ImporterCommand::class)
+    artisan(PruneImportCommand::class)
         ->assertSuccessful();
 });

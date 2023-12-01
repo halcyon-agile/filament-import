@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace HalcyonAgile\FilamentImport;
 
-use HalcyonAgile\FilamentImport\Commands\ImporterCommand;
+use HalcyonAgile\FilamentImport\Commands\PruneImportCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
 
@@ -15,6 +15,6 @@ class ImportServiceProvider extends PackageServiceProvider
         $package
             ->name('filament-import')
             ->hasConfigFile()
-            ->hasCommand(ImporterCommand::class);
+            ->hasCommand(PruneImportCommand::class);
     }
 }
