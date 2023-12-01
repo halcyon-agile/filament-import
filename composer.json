@@ -1,22 +1,23 @@
 {
     "name": "halcyon-agile/filament-import",
-    "description": "This is my package tall-boilerplate-importer",
+    "description": "Filament Import",
     "keywords": [
-        "HaclyonAgile",
+        "Haclyon Agile",
         "laravel",
-        "tall-boilerplate-importer"
+        "importer"
     ],
-    "homepage": "https://github.com/halcyon-agile/tall-boilerplate-importer",
+    "homepage": "https://github.com/halcyon-agile/filament-import",
     "license": "MIT",
     "authors": [
         {
             "name": "Halcyon Agile",
-            "email": "halcyondigital@gmail.com",
+            "email": "lgarcia.halcyondigital@gmail.com",
             "role": "Developer"
         }
     ],
     "require": {
         "php": "^8.2",
+        "filament/filament": "^2.17.55",
         "illuminate/contracts": "^10.0",
         "maatwebsite/excel": "^3.1.50",
         "spatie/laravel-package-tools": "^1.16.1"
@@ -73,7 +74,8 @@
     "extra": {
         "laravel": {
             "providers": [
-                "HalcyonAgile\\FilamentImport\\ImporterServiceProvider"
+                "HalcyonAgile\\FilamentImport\\ImportServiceProvider",
+                "HalcyonAgile\\FilamentImport\\ImportEventServiceProvider"
             ]
         }
     },

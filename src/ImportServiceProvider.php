@@ -8,12 +8,12 @@ use HalcyonAgile\FilamentImport\Commands\ImporterCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
 
-class ImporterServiceProvider extends PackageServiceProvider
+class ImportServiceProvider extends PackageServiceProvider
 {
     public function configurePackage(Package $package): void
     {
         $package
-            ->name('tall-boilerplate-importer')
+            ->name('filament-import')
             ->hasConfigFile()
             ->hasCommand(ImporterCommand::class);
     }
