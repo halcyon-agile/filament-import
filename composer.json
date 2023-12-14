@@ -23,9 +23,9 @@
         "spatie/laravel-package-tools": "^1.16.1"
     },
     "require-dev": {
+        "larastan/larastan": "^2.7",
         "laravel/pint": "^1.13.6",
         "nunomaduro/collision": "^7.10",
-        "nunomaduro/larastan": "^2.6.4",
         "orchestra/testbench": "^8.15",
         "pestphp/pest": "^2.26",
         "pestphp/pest-plugin-arch": "^2.4.1",
