@@ -10,6 +10,5 @@ readonly class ImportFinished
 {
     public function __construct(
         public Model $notifiable,
-    ) {
-    }
+    ) {}
 }

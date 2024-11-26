@@ -5,10 +5,10 @@ declare(strict_types=1);
 namespace HalcyonAgile\FilamentImport\Actions;
 
 use Closure;
+use Filament\Actions\Action;
 use Filament\Facades\Filament;
 use Filament\Forms;
 use Filament\Notifications\Notification;
-use Filament\Pages\Actions\Action;
 use HalcyonAgile\FilamentImport\DefaultImport;
 use HalcyonAgile\FilamentImport\Events\ImportFinished;
 use Illuminate\Foundation\Bus\PendingDispatch;
