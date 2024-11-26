@@ -14,8 +14,7 @@ readonly class SendImportFailedNotification
 {
     public function __construct(
         protected Authenticatable $notifiable
-    ) {
-    }
+    ) {}
 
     public function __invoke(ImportFailed $event): void
     {

@@ -17,8 +17,7 @@ class ImportFailedNotification extends Notification implements ShouldQueue
 
     public function __construct(
         private readonly string $error
-    ) {
-    }
+    ) {}
 
     public function via(object $notifiable): array
     {

@@ -35,8 +35,7 @@ readonly class DefaultImport implements ShouldQueue, ToModel, WithBatchInserts, 
         private array $validateMessages = [],
         private array $validateAttributes = [],
         private array $tags = [],
-    ) {
-    }
+    ) {}
 
     public function uniqueBy(): string
     {
